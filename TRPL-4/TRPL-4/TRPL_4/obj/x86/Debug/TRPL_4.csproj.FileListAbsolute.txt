@@ -1,0 +1,17 @@
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\TRPL_4.exe
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\TRPL_4.pdb
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.dll
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.xml
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\obj\x86\Debug\TRPL_4.csprojResolveAssemblyReference.cache
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\obj\x86\Debug\TRPL_4.exe
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\obj\x86\Debug\TRPL_4.pdb
+D:\Repos\TRPL-4\TRPL-4\TRPL-4\TRPL_4\bin\x86\Debug\Content\Textures\StarsBack.xnb
