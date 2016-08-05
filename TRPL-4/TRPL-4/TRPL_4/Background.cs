@@ -20,7 +20,7 @@ namespace TRPL_4
         Rectangle Back1;
         Rectangle Back2;
 
-        int Velocity = 3;
+        int Velocity = 1;
         int ScreenHeight;
         int ScreenWidth;
 

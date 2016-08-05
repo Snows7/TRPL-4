@@ -16,6 +16,7 @@ namespace TRPL_4
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Texture2D MainMenuTexture;
         
         ContentLoad ContentLoader = new ContentLoad();
         Background Backgr = new Background();
@@ -32,15 +33,11 @@ namespace TRPL_4
             graphics.PreferredBackBufferWidth = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Width;
             graphics.PreferredBackBufferHeight = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Height;
             IsMouseVisible = true;
-            graphics.IsFullScreen = true;
-
+            graphics.IsFullScreen = false;
         }
-
-
+        
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
 
             base.Initialize();
         }
@@ -50,12 +47,12 @@ namespace TRPL_4
         {
             ScreenWidth = GraphicsDevice.Viewport.Width;
             ScreenHeight = GraphicsDevice.Viewport.Height;
-            // Create a new SpriteBatch, which can be used to draw textures.
+
             spriteBatch = new SpriteBatch(GraphicsDevice);
             ContentLoader.StarsBackTexture = Content.Load<Texture2D>(@"Textures\StarsBack");
+            MainMenuTexture = Content.Load<Texture2D>(@"Menu\MainMenu1");
 
             Backgr.extContentLoad(ContentLoader, ScreenHeight, ScreenWidth);
-            // TODO: use this.Content to load your game content here
         }
         
 
@@ -84,6 +81,7 @@ namespace TRPL_4
 
             spriteBatch.Begin();
             Backgr.DrawBack(spriteBatch);
+            spriteBatch.Draw(MainMenuTexture, new Vector2((ScreenWidth/2) - (MainMenuTexture.Width / 2), (ScreenHeight / 2) - (MainMenuTexture.Height / 2)), Color.White);
             spriteBatch.End();
 
             // TODO: Add your drawing code here
